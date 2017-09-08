@@ -87,6 +87,6 @@ production:
   database: <%= ENV['DATABASE_NAME'] %>
   username: <%= ENV['DATABASE_USERNAME'] %>
   password: <%= ENV['DATABASE_PASSWORD'] %>
-  adapter: postgresql
-  encoding: unicode
+  adapter: mysql2
+  encoding: utf8
 
